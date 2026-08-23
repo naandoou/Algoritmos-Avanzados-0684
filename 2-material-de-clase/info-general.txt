@@ -1,3 +1,7 @@
-Se subirá el material de clase a este folder. El primer número de cada directorio corresponderá a la semana
-y la letra que le sigue se usará como identificador en caso de haber más de un material por semana.
-Por ejemplo, 1a-mochilaback correspondería a la primera semana y sería el único material de la misma.
+Se subirá el material/códigos de las clases a este folder. 
+El primer número de cada directorio corresponderá a la semana y la letra que le sigue 
+se usará como identificador en caso de haber más de un material por semana.
+
+Por ejemplo,
+  - 1a_mochilaback correspondería al primer material de la primera semana
+  - 10b_heuristicas correspondería al segundo material de la décima semana
