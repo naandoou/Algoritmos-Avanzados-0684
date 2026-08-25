@@ -1,5 +1,5 @@
-Se subirá el material/códigos de las clases a este folder. 
-El primer número de cada directorio corresponderá a la semana y la letra que le sigue 
+En esta carpeta se subirá el material/códigos de las clases. 
+El primer número de cada proyecto corresponderá a la semana y la letra que le sigue 
 se usará como identificador en caso de haber más de un material por semana.
 
 Por ejemplo,
