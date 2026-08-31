@@ -1,0 +1,27 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "E:/Almacen/AA/Practica/1a_mochilaback/cmake-build-debug",
+	"dir-cur-src" : "E:/Almacen/AA/Practica/1a_mochilaback",
+	"dir-top-bld" : "E:/Almacen/AA/Practica/1a_mochilaback/cmake-build-debug",
+	"dir-top-src" : "E:/Almacen/AA/Practica/1a_mochilaback",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "E:/Almacen/AA/Practica/1a_mochilaback/cmake-build-debug/CMakeFiles/1_mochilaback.dir",
+	"sources" : 
+	{
+		"CMakeFiles/1_mochilaback.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/Almacen/AA/Practica/1a_mochilaback/main.cpp"
+		}
+	}
+}
