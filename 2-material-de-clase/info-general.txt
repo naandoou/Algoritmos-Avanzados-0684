@@ -1,7 +1,0 @@
-En esta carpeta se subirá el material/códigos de las clases. 
-El primer número de cada proyecto corresponderá a la semana y la letra que le sigue 
-se usará como identificador en caso de haber más de un material por semana.
-
-Por ejemplo,
-  - 1a_mochilaback correspondería al primer material de la primera semana
-  - 10b_heuristicas correspondería al segundo material de la décima semana
