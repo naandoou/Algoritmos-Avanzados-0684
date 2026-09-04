@@ -1,3 +1,0 @@
-E:/Almacen/Algoritmos Avanzados/Practica/1a_mochilaback/cmake-build-debug/CMakeFiles/1_mochilaback.dir
-E:/Almacen/Algoritmos Avanzados/Practica/1a_mochilaback/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Almacen/Algoritmos Avanzados/Practica/1a_mochilaback/cmake-build-debug/CMakeFiles/rebuild_cache.dir
