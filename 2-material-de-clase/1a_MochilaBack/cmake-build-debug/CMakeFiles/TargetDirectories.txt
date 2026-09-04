@@ -1,3 +1,0 @@
-D:/PUCP/Algoritmia Avanzada/2026-2/Ejercicios/MochilaBack/cmake-build-debug/CMakeFiles/MochilaBack.dir
-D:/PUCP/Algoritmia Avanzada/2026-2/Ejercicios/MochilaBack/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/PUCP/Algoritmia Avanzada/2026-2/Ejercicios/MochilaBack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
