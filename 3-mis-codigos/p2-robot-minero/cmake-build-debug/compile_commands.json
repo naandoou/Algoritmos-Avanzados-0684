@@ -1,0 +1,8 @@
+[
+{
+  "directory": "E:/Almacen/Algoritmos Avanzados/LAB5_2022-1_AlgoED/p2-robot-minero/cmake-build-debug",
+  "command": "D:\\mingw64\\bin\\c++.exe -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\p2_robot_minero.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\p2_robot_minero.dir\\main.cpp.obj -c \"E:\\Almacen\\Algoritmos Avanzados\\LAB5_2022-1_AlgoED\\p2-robot-minero\\main.cpp\"",
+  "file": "E:/Almacen/Algoritmos Avanzados/LAB5_2022-1_AlgoED/p2-robot-minero/main.cpp",
+  "output": "E:/Almacen/Algoritmos Avanzados/LAB5_2022-1_AlgoED/p2-robot-minero/cmake-build-debug/CMakeFiles/p2_robot_minero.dir/main.cpp.obj"
+}
+]

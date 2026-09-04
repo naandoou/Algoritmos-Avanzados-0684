@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/p2_robot_minero.dir/main.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
