@@ -1,3 +1,0 @@
-E:/Almacen/AA/Practica/2b_permutaciones/cmake-build-debug/CMakeFiles/2b_permutaciones.dir
-E:/Almacen/AA/Practica/2b_permutaciones/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Almacen/AA/Practica/2b_permutaciones/cmake-build-debug/CMakeFiles/rebuild_cache.dir
