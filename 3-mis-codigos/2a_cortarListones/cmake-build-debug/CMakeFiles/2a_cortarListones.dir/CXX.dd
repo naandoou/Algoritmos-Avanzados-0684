@@ -1,3 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/2a_cortarListones.dir/main.cpp.obj: dyndep
-
