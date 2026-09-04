@@ -1,3 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/p2_robot_minero.dir/main.cpp.obj: dyndep
-
