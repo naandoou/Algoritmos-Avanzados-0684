@@ -1,8 +1,0 @@
-[
-{
-  "directory": "E:/Almacen/Algoritmos Avanzados/Practica/2a_cortarListones/cmake-build-debug",
-  "command": "D:\\mingw64\\bin\\c++.exe -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\2a_cortarListones.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\2a_cortarListones.dir\\main.cpp.obj -c \"E:\\Almacen\\Algoritmos Avanzados\\Practica\\2a_cortarListones\\main.cpp\"",
-  "file": "E:/Almacen/Algoritmos Avanzados/Practica/2a_cortarListones/main.cpp",
-  "output": "E:/Almacen/Algoritmos Avanzados/Practica/2a_cortarListones/cmake-build-debug/CMakeFiles/2a_cortarListones.dir/main.cpp.obj"
-}
-]
