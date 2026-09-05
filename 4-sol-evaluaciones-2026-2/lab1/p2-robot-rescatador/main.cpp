@@ -87,8 +87,8 @@ bool robotrescatador(int x, int y, char nmov, int mov[MAXMOV][NCOORD], char terr
                 terreno[xfin][yfin] = ' ';
             }
             for (int j = 0; j < MAXMOV; j++) {
-                xsondeo = x + mov[j][0];
-                ysondeo = y + mov[j][1];
+                xsondeo = xfin + mov[j][0];
+                ysondeo = yfin + mov[j][1];
                 if (validasondeo(xsondeo, ysondeo, terreno)) {
                     nsupervivientes++;
                     terreno[xsondeo][ysondeo] = ' ';
