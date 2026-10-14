@@ -65,7 +65,7 @@ void minimizarcanales(int mapa[N][N]) {
     sort(antenas, antenas + N, comparaporinterf);
 
     // creamos un vector de canales asignados, cada posicion corresponde a una antena
-    int canalesasignados[N];
+    int canalesasignados[N]{};
 
     // vamos recorriendo las antenas con el criterio voraz que asignamos
     for (int i = 0; i < N; i++) {
