@@ -5,8 +5,9 @@
 #include <cmath>
 #include <map>
 #define NUMIND 20
-#define NUMGENERACIONES 10000
+#define NUMGENERACIONES 100
 #define TASASELECCION 0.25
+#define TMUTACION 0.25
 #define PCASAMIENTO 0.5
 using namespace std;
 
@@ -144,6 +145,40 @@ void regenerapoblacion(vector<vector<int>>&poblacion,
         poblacion.erase(poblacion.begin()+NUMIND,poblacion.end());
 }
 
+void mutacion(vector<vector<int>>&poblacion,
+    vector<vector<int>>mejores,int *paq,int peso) {
+    int nmutaciones=round(mejores[0].size()*TMUTACION);
+
+    for (int i=0;i<mejores.size();i++) {
+        int cont=0;
+        while (cont<nmutaciones) {
+            int gen=rand()%mejores[i].size();
+            if (mejores[i][gen]==0)
+                mejores[i][gen]=1;
+            else
+                mejores[i][gen]=0;
+            cont++;
+        }
+        if (not esaberracion(mejores[i],paq,peso) )
+            poblacion.push_back(mejores[i]);
+    }
+}
+
+void inversion(vector<vector<int>>&poblacion,
+    vector<vector<int>>mejores,int *paq,int peso) {
+
+    for (int i=0;i<mejores.size();i++) {
+        for (int j=0;j<mejores[i].size();j++) {
+            if (mejores[i][j]==0)
+                mejores[i][j]=1;
+            else
+                mejores[i][j]=0;
+        }
+        if (not esaberracion(mejores[i],paq,peso))
+            poblacion.push_back(mejores[i]);
+    }
+}
+
 
 void mochila(int *paq,int n,int peso) {
     vector<vector<int>>poblacion;
@@ -156,7 +191,9 @@ void mochila(int *paq,int n,int peso) {
       //  cout <<"Seleccion:"<<endl;
       //  muestrapoblacion(poblacion,paq);
         casamiento(poblacion,mejores,paq,peso);
-       // cout <<"Casamiento:"<<endl;
+        mutacion(poblacion,mejores,paq,peso);
+        inversion(poblacion,mejores,paq,peso);
+        // cout <<"Casamiento:"<<endl;
        // muestrapoblacion(poblacion,paq);
         regenerapoblacion(poblacion,paq,n);
        // cout <<"Nueva Poblacion:"<<endl;
